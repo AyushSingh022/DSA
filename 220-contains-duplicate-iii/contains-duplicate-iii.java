@@ -1,5 +1,3 @@
-import java.util.TreeSet;
-
 class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int indexDiff, int valueDiff) {
         TreeSet<Long> set = new TreeSet<>();
