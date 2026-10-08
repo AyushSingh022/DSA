@@ -30,6 +30,6 @@ class Solution {
             newintervals[j++] = newInterval;
         }
 
-        return java.util.Arrays.copyOf(newintervals, j);
+        return Arrays.copyOf(newintervals, j);
     }
 }
